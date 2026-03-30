@@ -6,7 +6,7 @@ Type: Academic Project
 
 Duration: 14 weeks
 
-##Project Overview
+## Project Overview
 
 This project focused on the design and development of a prototype web-based system for managing surgical appointments, clinical resources, and patient data.
 
