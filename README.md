@@ -1,38 +1,86 @@
-# sem5pi-24-25-3NA_G74
-Projeto Integrador LAPR5 - Surgical Appointment and Resource Management
+# Surgical Appointment and Resource Management System
 
-## Scope
+Status: Completed
 
-The scope of this project is to develop a prototype system for chirurgic requests, appointment,
-and resource management. The system will enable hospitals and clinics to manage surgery
-appointments, and patient records. It will also offer real-time 3D visualization of resource
-availability within the facility and optimize scheduling and resource usage. Furthermore, the
-project will address GDPR compliance, ensuring the system meets data protection and consent
-management requirements.
-Each module of the system must consider the legal aspects of the GDPR Regulation (EU)
-2016/679 and guarantee that users can access the privacy policy and exercise all relevant rights
-under this regulation.
-Since this is a prototype, not all modules will need full implementation. The project proposal
-must clearly specify which functionalities are implemented.
-Given that the project spans 14 weeks, broken into three sprints, it is important to carefully
-allocate tasks, milestones, and responsibilities to ensure that the students can develop a working
-system by the end of the course. Each sprint will include a planning phase, development phase,
-testing, and review.
+Type: Academic Project
 
-## Overview
+Duration: 14 weeks
 
-In this project, you will develop a web-based surgical appointment and resource management
-system. The system will consist of several modules:
-- Backoffice Web Application
-- 3D Visualization Module
-- Planning/Optimization Module
-- GDPR Module
-- Business Continuity Plan (BCP)
+##Project Overview
 
-The goal is to expose students to full-stack web development, REST APIs, database management,
-3D rendering, optimization using Prolog, and privacy law (GDPR).
-You will work in groups of 4, with each group member responsible for different parts of the
-system. Each student will be responsible for a distinct part of the system, but collaboration is
-essential for integrating the various components into a functional product. All user stories across
-the modules must align, and any dependencies between modules (e.g., 3D visualization relying
-on scheduling data from the planning module) must be carefully managed.
+This project focused on the design and development of a prototype web-based system for managing surgical appointments, clinical resources, and patient data.
+
+The system is intended for use in hospital or clinical environments, supporting the scheduling of surgeries, allocation of resources, and management of patient records. It also includes a 3D visualization component to represent resource availability within a facility.
+
+An important aspect of the project was ensuring alignment with GDPR (Regulation EU 2016/679), incorporating data protection principles, consent management, and user rights.
+
+## Key Features
+
+Surgical appointment scheduling and coordination of medical resources
+
+Centralized management of patient records and facility resources
+
+Planning and optimization module using logic programming (Prolog)
+
+3D visualization of resource availability within the facility
+
+GDPR compliance, including consent handling and access to privacy information
+
+Business continuity considerations for system reliability
+
+## System Architecture
+
+Frontend (Web Application)
+        |
+        v
+REST API Layer
+        |
+        v
+Core Modules
+  - Scheduling and Optimization (Prolog)
+  - Resource Management
+  - GDPR Compliance
+  - 3D Visualization
+        |
+        v
+Database
+
+## Technologies and Concepts
+
+Full-stack web development
+
+RESTful API design
+
+Database modeling and management
+
+3D visualization techniques
+
+Logic programming with Prolog for optimization
+
+GDPR and privacy-aware system design
+
+Modular architecture and system integration
+
+## Team and Methodology
+
+The project was developed in a team of four, with each member responsible for a specific module.
+
+Development followed an Agile approach across three sprints, each including planning, implementation, testing, and review phases. Particular attention was given to integration between modules and managing dependencies across the system.
+
+### Outcomes
+
+The result is a functional prototype that integrates multiple components into a coherent system. The project provided practical experience in designing and implementing a complex application under technical and regulatory constraints.
+
+# Notes for Recruiters
+
+This project demonstrates:
+
+Experience in designing multi-module systems
+
+Understanding of real-world constraints, including healthcare workflows and data protection regulations
+
+Solid foundation in full-stack development and system architecture
+
+Exposure to optimization techniques and visualization systems
+
+Ability to collaborate effectively in a team using structured development practices
