@@ -1,86 +1,95 @@
-# Surgical Appointment and Resource Management System
+# **Surgical Appointment and Resource Management System**
 
-Status: Completed
+**Status:** Completed  
+**Type:** Academic Project  
+**Duration:** 14 weeks
 
-Type: Academic Project
+---
 
-Duration: 14 weeks
+## **Project Overview**
 
-## Project Overview
+This project involved the **design and development of a web-based prototype system** for managing surgical appointments, clinical resources, and patient data in hospital or clinical environments. The system supports:
 
-This project focused on the design and development of a prototype web-based system for managing surgical appointments, clinical resources, and patient data.
+- Scheduling of surgeries and allocation of medical resources.
+- Centralized management of patient records and facility resources.
+- **3D visualization** of resource availability within the facility.
+- **GDPR compliance**, including data protection, consent management, and user privacy rights.
 
-The system is intended for use in hospital or clinical environments, supporting the scheduling of surgeries, allocation of resources, and management of patient records. It also includes a 3D visualization component to represent resource availability within a facility.
+A key technical challenge was integrating **logic programming (Prolog)** for optimization with a **.NET-based backend** and a modern TypeScript frontend.
 
-An important aspect of the project was ensuring alignment with GDPR (Regulation EU 2016/679), incorporating data protection principles, consent management, and user rights.
+---
 
-## Key Features
+## **Key Features**
 
-Surgical appointment scheduling and coordination of medical resources
 
-Centralized management of patient records and facility resources
+| Feature                 | Description                                                                          |
+| ----------------------- | ------------------------------------------------------------------------------------ |
+| **Surgical Scheduling** | Coordination of appointments, surgeons, and operating rooms.                         |
+| **Resource Management** | Allocation of medical equipment, staff, and facilities.                              |
+| **Patient Records**     | Centralized, secure storage and access to patient data.                              |
+| **Prolog Optimization** | Logic-based planning for resource allocation and conflict resolution.                |
+| **3D Visualization**    | Interactive representation of facility resources (e.g., operating rooms, equipment). |
+| **GDPR Compliance**     | Data encryption, access controls, and consent management.                            |
+| **Business Continuity** | Redundancy and backup mechanisms for system reliability.                             |
 
-Planning and optimization module using logic programming (Prolog)
 
-3D visualization of resource availability within the facility
+---
 
-GDPR compliance, including consent handling and access to privacy information
+## **System Architecture**
 
-Business continuity considerations for system reliability
-
-## System Architecture
-
-Frontend (Web Application)
-        |
-        v
-REST API Layer
-        |
-        v
-Core Modules
-  - Scheduling and Optimization (Prolog)
+```
+Frontend (TypeScript, HTML, CSS)
+       ↓
+Backend (.NET Core Web API, C#)
+       ↓
+Core Modules:
+  - Scheduling & Optimization (Prolog)
   - Resource Management
   - GDPR Compliance
   - 3D Visualization
-        |
-        v
-Database
+       ↓
+Database (SQL Server/PostgreSQL)
+```
 
-## Technologies and Concepts
+### **Technical Stack**
 
-Full-stack web development
 
-RESTful API design
+| Category          | Technologies                                                  |
+| ----------------- | ------------------------------------------------------------- |
+| **Frontend**      | TypeScript (38%), JavaScript (11.5%), HTML (6.1%), CSS (4.2%) |
+| **Backend**       | **.NET Core (C#)** (29.3%)                                    |
+| **Optimization**  | Prolog (10.2%)                                                |
+| **Visualization** | Three.js/Babylon.js (for 3D rendering)                        |
+| **Database**      | SQL Server/PostgreSQL                                         |
+| **DevOps**        | Docker (containerization), Kubernetes (orchestration)         |
 
-Database modeling and management
 
-3D visualization techniques
+---
 
-Logic programming with Prolog for optimization
+## **Team and Methodology**
 
-GDPR and privacy-aware system design
+- **Team Size:** 4 members (each responsible for a specific module).
+- **Approach:** Agile (3 sprints: planning, implementation, testing, review).
+- **Focus:** Modular integration, dependency management, and cross-team collaboration.
 
-Modular architecture and system integration
+---
 
-## Team and Methodology
+## **Outcomes**
 
-The project was developed in a team of four, with each member responsible for a specific module.
+- Functional prototype integrating **frontend (TypeScript), backend (.NET), and Prolog logic**.
+- Practical experience in:
+  - Full-stack development with **.NET and TypeScript**.
+  - **Modular system design** under regulatory constraints (GDPR).
+  - **3D visualization** and logic-based optimization.
+  - Agile teamwork and structured development practices.
 
-Development followed an Agile approach across three sprints, each including planning, implementation, testing, and review phases. Particular attention was given to integration between modules and managing dependencies across the system.
+---
 
-### Outcomes
+## **Notes for Recruiters**
 
-The result is a functional prototype that integrates multiple components into a coherent system. The project provided practical experience in designing and implementing a complex application under technical and regulatory constraints.
-
-# Notes for Recruiters
-
-This project demonstrates:
-
-Experience in designing multi-module systems
-
-Understanding of real-world constraints, including healthcare workflows and data protection regulations
-
-Solid foundation in full-stack development and system architecture
-
-Exposure to optimization techniques and visualization systems
-
-Ability to collaborate effectively in a team using structured development practices
+This project demonstrates:  
+**Full-stack proficiency** (.NET, TypeScript, Prolog).  
+**Complex system integration** (RESTful APIs, 3D rendering, logic programming).  
+**Regulatory compliance** (GDPR, data protection).  
+**Team collaboration** in Agile environments.  
+**Problem-solving** in healthcare workflows and resource optimization.
